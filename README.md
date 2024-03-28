@@ -1,4 +1,4 @@
-# 15418-project-proposal
+# 15418/618 Cache Simulator
 
 [Link to Proposal](https://walkingcabbages.github.io/15418-project-proposal/)
 
