@@ -8,9 +8,9 @@ We are going to build a trace-driven cache simulator, implement several snooping
 ## BACKGROUND
 In class we learned about different snooping-based cache coherence protocols, such as MESI, MESIF, and MOESI.
 
-![alt text](https://github.com/walkingcabbages/15418-project-proposal/blob/main/MESI.jpg?raw=true)
+![alt text](https://github.com/walkingcabbages/15418-project-proposal/blob/main/MESI.png?raw=true)
 
-![alt text](https://github.com/walkingcabbages/15418-project-proposal/blob/main/coherence_state.jpg?raw=true)
+![alt text](https://github.com/walkingcabbages/15418-project-proposal/blob/main/coherence_state.png?raw=true)
 
 As a stretch goal, we additionally would like to add read snarfing, in which a processor will snoop for other processors’ read responses for blocks that its own cache has invalidated. This is a natural extension of snooping-based cache coherence protocols we have learned in class, and may reduce cache misses and traffic.
 
