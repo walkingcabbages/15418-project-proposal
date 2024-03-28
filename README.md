@@ -1,5 +1,7 @@
 # 15418/618 Cache Simulator
 
+Amy Cheng, David Herman
+
 [Link to Proposal](https://walkingcabbages.github.io/15418-project-proposal/)
 
 ## SUMMARY
