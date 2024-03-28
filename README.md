@@ -26,21 +26,25 @@ We are planning to start from scratch for the cache simulator, but we will use i
 
 ## GOALS & DELIVERABLES
 *PLAN TO ACHIEVE:*
-MESI snoop-based cache coherence implementation
-MESIF snoop-based cache coherence implementation
-MOESI snoop-based cache coherence implementation
-Obtain traces and run cache simulator for several programs with a range of workloads
-Experiments with varying number of cores, workloads, coherence protocols
+
+- MESI snoop-based cache coherence implementation
+- MESIF snoop-based cache coherence implementation
+- MOESI snoop-based cache coherence implementation
+- Obtain traces and run cache simulator for several programs with a range of workloads
+- Experiments with varying number of cores, workloads, coherence protocols
 
 *HOPE TO ACHIEVE:*
-Adding read snarfing and additional optimizations
-Obtain traces and run cache simulator for programs with more unique workloads
+
+- Adding read snarfing and additional optimizations
+- Obtain traces and run cache simulator for programs with more unique workloads
 
 *DEMO:*
-Graphs of our experiments
-All protocols, any optimizations, and all metrics on all programs
+
+- Graphs of our experiments
+- All protocols, any optimizations, and all metrics on all programs
 
 *HOPE TO LEARN:*
+
 Questions we hope to answer in our analysis are the performance of MESI, MESIF, MOESI against multiple different programs and which protocols suit certain programs better. We want to see if there is one best protocol or do they all have trade offs (which is more likely). We are also hoping to answer questions like are the effects of adding read snarfing and other potential goals to the protocols, and how are they affected differently, both good and bad. 
 
 ## PLATFORM CHOICE
