@@ -66,22 +66,22 @@ We will develop, debug, and run experiments on GHC machines.
 
 *May 1:* Learn Pin tool to generate our own traces. Run all experiments.
 
-## MILESTONE REPORT
 
+# MILESTONE REPORT
 
-Work Completed:
+## Work Completed:
 We have read through the starter framework at https://github.com/bprail/cadss_public. Based on our understanding of the APIs, we have implemented MSI and MESI but have not yet tested these implementations. Both of these protocols are compiling and can execute, however we are unsure of exactly how correct they are.
 
-Progress:
+## Progress:
 With respect to the goals and deliverables in our proposal, we are a little behind schedule. Understanding the starter framework and changing our plan to use the starter framework rather than coding on top of other simulation frameworks or from scratch took a bit of time. We have reorganized our schedule to use Pin tool to generate traces last, or as an extra, given that there are larger traces provided at /afs/cs.cmu.edu/academic/class/15346-s22/public/traces/coher.
 
-Poster Session Plan:
+## Poster Session Plan:
 We are still planning on showing graphs of metrics such as hit rate, eviction rate, coherence traffic, etc from our experiments with varying number of cores, workloads, coherence protocols at the poster demo session.
 
-Preliminary Results:
+## Preliminary Results:
 n/a
 
-Concerning Issues:
+## Concerning Issues:
 We are currently still trying to understand different parts of the starter code and figure out how to test our MSI and MESI implementations. We plan to write different traces, add print statements within state transitions in MSI and MESI, and manually verify correctness. However, we are unsure if this is the most robust and efficient way to test. We believe that it will still produce good results as we can write edge cases for traces to determine if the implementation is working correctly. There are not that many cases to test especially for protocols like MSI. One issue right now is that without the reference code, we are unsure how certain parts of the code work as well as how to figure out how it works without asking the professor: for instance, how exactly different functions we write in coherence are being called, what different bus request types mean, etc. Not knowing the framework in its entirety is the biggest limiting factor to our work. 
 
 
