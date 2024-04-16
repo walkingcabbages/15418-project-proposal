@@ -66,7 +66,7 @@ We will develop, debug, and run experiments on GHC machines.
 
 *May 1:* Learn Pin tool to generate our own traces. Run all experiments.
 
-##**Milestone Report**
+## MILESTONE REPORT
 
 
 Work Completed:
