@@ -51,7 +51,7 @@ We are planning to start from [15-346 _Design and Simulation's_ starter framewor
 Questions we hope to answer in our analysis are the performance of MESI, MESIF, MOESI against multiple different programs and which protocols suit certain programs better. We want to see if there is one best protocol or do they all have trade offs (which is more likely). We are also hoping to answer questions like are the effects of adding read snarfing and other potential goals to the protocols, and how are they affected differently, both good and bad. 
 
 ## PLATFORM CHOICE
-We will develop, debug, and run experiments on GHC machines. It makes sense to use this system because in developing we will need multiple cores, but probably not a super high amount. GHC has 8 available cores which should be good. For testing we wish to see the performance of the simulator on many cores which the PSC machines allow us to do.
+We will develop, debug, and run experiments on GHC machines.
 
 ## MILESTONES
 *April 14:* Implement MSI (David) and MESI (Amy).
