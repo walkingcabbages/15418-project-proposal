@@ -5,7 +5,7 @@ Amy Cheng, David Herman
 [Link to Proposal](https://walkingcabbages.github.io/15418-project-proposal/)
 
 ## SUMMARY
-We are going to build a trace-driven cache simulator, implement several snooping-based cache coherence protocols, and measure metrics such as hit rate, eviction rate, and amount of coherence traffic.
+We are going to build a trace-driven cache simulator, implement several snooping-based cache coherence protocols, and measure metrics such as hit/miss rate, latency, and amount of coherence traffic.
 
 ## BACKGROUND
 In class we learned about different snooping-based cache coherence protocols, such as MESI, MESIF, and MOESI.
@@ -17,7 +17,7 @@ In class we learned about different snooping-based cache coherence protocols, su
 We additionally are adding read snarfing optimization, in which a processor will snoop for other processors’ read responses for blocks that its own cache has invalidated. This is a natural extension of snooping-based cache coherence protocols we have learned in class, and may reduce cache misses and traffic.
 
 ## THE CHALLENGE
-One of the challenges of parallelizing a cache is ensuring coherence correctness is maintained. All threads need to share an order of events that they can agree on. Communicating when lines become invalid and written to is essential for keeping a correct multi-core cache, and this challenge is difficult because for every cache line, we must keep track of its state. This will also be challenging because we need to understand all aspects of cache coherence protocols we learned in lecture in order to implement correctly. 
+One of the challenges of parallelizing a cache is ensuring coherence correctness is maintained. All processors need to share an order of events that they can agree on. Communicating when lines become invalid and written to is essential for keeping a correct multi-core cache simulation. This will be challenging because we need to understand all aspects of cache coherence protocols we learned in lecture in order to implement correctly. 
 
 Second, we need to create test programs of varying workloads to generate the memory traces, on which we will run our cache simulator. It is important to test different workloads to ensure that the performance metrics have an applicable use to general programs and to potentially find which ones are better from different protocols.
 
@@ -34,7 +34,7 @@ We are planning to start from [15-346 _Design and Simulation's_ starter framewor
 - MOESI snoop-based cache coherence implementation
 - Add read snarfing 
 - Obtain traces and run cache simulator for several programs with a range of workloads
-- Experiments with varying number of cores, workloads, coherence protocols
+- Experiments with varying number of cores, workloads, coherence protocols, etc
 
 *HOPE TO ACHIEVE:*
 
