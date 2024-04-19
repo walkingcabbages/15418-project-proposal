@@ -58,7 +58,7 @@ We will develop, debug, and run experiments on GHC machines.
 
 *April 17:* Test MSI (David) and MESI (Amy) implementations.
 
-*April 21:*: Write cache code to track desired metrics (both). Run preliminary experiments on MSI (David) and MESI (Amy) for provided traces.
+*April 21:*: Add metric tracking. Finish testing MSI and MESI. Run preliminary experiments on MSI (David) and MESI (Amy) for provided traces.
 
 *April 24:* Implement and test MESIF (David) and MOESI (Amy).
 
