@@ -58,11 +58,11 @@ We will develop, debug, and run experiments on GHC machines.
 
 *April 17:* Test MSI (David) and MESI (Amy) implementations.
 
-*April 21:*: Add metric tracking. Finish testing MSI and MESI. Run preliminary experiments on MSI (David) and MESI (Amy) for provided traces.
+*April 21:*: Add metric tracking. Finish testing MSI and MESI.
 
-*April 24:* Implement and test MESIF (David) and MOESI (Amy).
+*April 24:* Implement and test MESIF (Amy) and MOESI (David). Write test traces to aim for 100% coherence code coverage for MSI, MESI, MESIF, MOESI.
 
-*April 28:* Add snarfing (both) and other optimizations.
+*April 28:* Select larger traces and run experiments. Add snarfing (both) and other optimizations.
 
 *May 1:* Learn Pin tool to generate our own traces. Run all experiments.
 
